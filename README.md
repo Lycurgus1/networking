@@ -139,7 +139,8 @@ A. create new nacl
 B. tag = Eng67.Max.P.Route.NACL
 
 C. add rules
-	- inbound rules per the below image (my IP is blacked out):
+
+Y	- inbound rules per the below image (my IP is blacked out):
 
 ![rules_inbound_NACL](images/rules_inbound_NACL.jpg)
 	
