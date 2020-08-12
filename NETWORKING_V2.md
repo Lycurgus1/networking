@@ -22,14 +22,34 @@ B. Add below outbound rule
 ``` 100, All traffic, port range all, 245.20.1.0/24 ```
 
 ### 2. Launch EC2 instance for VPC db instance
-	Eng67.Max.DBinstance.VP
+
+A. Select Ubunutu version 16.04, next then micro t2
+
+E. Select standard storage
+
+B. Select your VPC network
+
+C. Use the private VPC subnet
+
+D. You don't need a public IP, but can add one optionally
+
+F. Create an appropriate tag
+
+G. Security is handled below
+	
+Eng67.Max.DBinstance.VP
 
 ### 3. Create security group for the VPC db instance
 
-	Eng67.Max.DB.VPC.SG
+A. Inbound rules per picture below
+
+
+B. Use the DevOps student key 
+Eng67.Max.DB.VPC.SG (pic placeholder)
 	
 ### 4. Launch EC2 instance for VPC Bastion istance
-	Eng67.Max.P.Bastion
+	
+Eng67.Max.P.Bastion
 
 
 ### 5. Create security gorup for the VPC Bastion instance
