@@ -27,6 +27,8 @@ A. ensure region is ireland
 A. tag = Eng67.Max.P.VPC
 
 B. Ipv4 CIDR block = 245.20.0.0/16
+	- This could be changed, with 245 being anything from 1-255 and 20 being similar
+	- However the zeros must remain there
 
 C. leave everything else >> create vpc
 
@@ -49,6 +51,8 @@ B. tag = Eng67.Max.P.Subnet.Public
 C. select your vpc
 
 D. 245.20.1.0/24 in IPv4 block
+	- This IP is per the IP established from the VPC, with the third block changed
+	- The third block is changed to establish a subnet within the VPC
 
 E. create
 
@@ -61,6 +65,9 @@ B. tag = Eng67.Max.P.Subnet.private
 C. select your vpc
 
 D. ip = 245.20.2.0/24, create
+        - This IP is per the IP established from the VPC, with the third block changed
+        - The third block is changed to establish a subnet within the VPC
+	- This must be differnt to the IP created for your public subnet
 
 ### 6. create route table
 
@@ -126,8 +133,11 @@ B. tag = Eng67.Max.P.Route.NACL
 
 C. add rules
 	- inbound rules per the below image (my IP is blacked out):
+	
 	![rules_inbound_NACL](images/rules_inbound_NACL.jpg)
+	
 	- outbound rules per the below image:
+	
 	![rules_outbound_nacl](images/rules_outbound_nacl.PNG)
 
 ### Testing
