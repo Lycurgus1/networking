@@ -25,36 +25,50 @@ B. Add below outbound rule
 
 A. Select Ubunutu version 16.04, next then micro t2
 
-E. Select standard storage
-
 B. Select your VPC network
 
 C. Use the private VPC subnet
 
 D. You don't need a public IP, but can add one optionally
 
-F. Create an appropriate tag
+E. Select standard storage
+
+F. Create an appropriate tag (Eng67.Max.DBinstance.VP)
 
 G. Security is handled below
-	
-Eng67.Max.DBinstance.VP
 
 ### 3. Create security group for the VPC db instance
 
 A. Inbound rules per picture below
 
-
-B. Use the DevOps student key 
 Eng67.Max.DB.VPC.SG (pic placeholder)
+
+B. Use the DevOps student key pair 
 	
 ### 4. Launch EC2 instance for VPC Bastion istance
-	
-Eng67.Max.P.Bastion
 
+A. Select Ubunutu version 16.04, next then micro t2
+
+B. Select your VPC network
+
+C. Use the public VPC subnet
+
+D. You need a public IP, so enable public IP
+
+E. Select standard storage
+
+F. Create an appropriate tag (Eng67.Max.P.Bastion)
+
+G. Security is handled below
 
 ### 5. Create security gorup for the VPC Bastion instance
-	Eng67.Max.P.Bastion.SG
 
+A. Inbound rules per picture below
+
+Eng67.Max.P.Bastion.SG (pic placeholder)
+
+B. Use the DevOps student key pair 
+	
 ### 6. Copy SSH key into bastion server
 
 A. Change folder into the .SSH folder, from your user folder
