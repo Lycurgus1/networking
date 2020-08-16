@@ -42,7 +42,7 @@
 
 ![pic](images/PrivateNacl_inbound.jpg)
 
-![PrivateNacl_outbound](images/PrivateNacle_outbound.png)
+![PrivateNacl_outbound](images/PrivateNacle_outbound.PNG)
 
 - The covered up IP needs to be your IP
 
