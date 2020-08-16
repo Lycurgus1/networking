@@ -4,8 +4,7 @@
 
 1. Configure the rules as per the picture below
 
-PIC PLACEHOLDER
-VPCAPP_SG.jpg
+![pic](images/VPCAPP_SG.jpg)
 
 - The covered up IP needs to be your IP
 
@@ -13,15 +12,13 @@ VPCAPP_SG.jpg
 
 1. Configure the rules as per the picture below
 
-PIC PLACEHOLDER
-DBSG.PNG
+![pic](images/DBSG.PNG)
 
 ## Check rules for Bastion Secruity Group
 
 1. Configure the rules as per the picture below
 
-PIC PLACEHOLDER
-Bastion_SG.jpg
+![pic](images/Bastion_SG.jpg)
 
 - The covered up IP needs to be your IP
 
@@ -29,22 +26,19 @@ Bastion_SG.jpg
 
 1. Add the internet gateway and destination of 0.0.0.0/0 for the private Subnet
 
-2. Add assocations per the picture below
-
-PIC PLACEHOLDER
-
 ## Configure the Public NACL
 
 1. Configure it per the below pictures
 
-PIC PLACEHOLDER
+![pic](images/Public_Nacl_Inbound.jpg)
+![pic](images/PublicNacl_Outbound.PNG)
 
 ## Configure the Private NACL
 
 1. Configure it per the below pictures
 
-PrivateNacl_inbound.jpg
-PrivateNacle_outbound.png
+![pic](images/PrivateNacl_inbound.jpg)
+![pic](images/PrivateNacle_outbound.png)
 
 - Port 80 and 443 allow internet access
 - Port 1024-65535 is the epheremerla port
