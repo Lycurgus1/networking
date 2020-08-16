@@ -41,7 +41,11 @@ G. Security is handled below
 
 A. Inbound rules per picture below
 
-![DB_inbound_rules bastion_setup](images/DB_inbound_rules_bastion_setup.PNG)
+![DB_inbound_rules bastion_setup](images/DB_inbound_rules_bastion_setup.jpg)
+
+- The IP blacked out is your IP
+
+- The other IPs are your public subnet IP
 
 B. Use the DevOps student key pair 
 	
@@ -65,7 +69,9 @@ G. Security is handled below
 
 A. Inbound rules per picture below
 
-![Bastion_server_rules](images/Bastion_server_rules_bastion_setup.PNG)
+![Bastion_server_rules](images/Bastion_server_rules_bastion_setup.jpg)
+
+- The IP blacked out is your IP
 
 B. Use the DevOps student key pair 
 	
