@@ -41,7 +41,7 @@ G. Security is handled below
 
 A. Inbound rules per picture below
 
-Eng67.Max.DB.VPC.SG (pic placeholder)
+![DB_inbound_rules bastion_setup](images/DB_inbound_rules_bastion_setup.PNG)
 
 B. Use the DevOps student key pair 
 	
@@ -65,7 +65,7 @@ G. Security is handled below
 
 A. Inbound rules per picture below
 
-Eng67.Max.P.Bastion.SG (pic placeholder)
+![Bastion_server_rules](images/Bastion_server_rules_bastion_setup.PNG)
 
 B. Use the DevOps student key pair 
 	
