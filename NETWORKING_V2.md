@@ -97,6 +97,10 @@ C. You should see something called "DevOpsStudents.pem"
 
 ### 8. Enter the DB instance within the VPC using its private IP from the bastion server
 
+A. Change permissions
+
+```chmod 400 DevOpsStudents.pem```
+
 ```ssh -i ~/.ssh/DevOpsStudents.pem ubuntu@PRIVATE_DB_VPC_IP```
 
 ## Bastion server Theory
