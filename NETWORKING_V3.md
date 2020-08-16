@@ -31,14 +31,20 @@
 1. Configure it per the below pictures
 
 ![pic](images/Public_Nacl_Inbound.jpg)
+
 ![pic](images/PublicNacl_Outbound.PNG)
+
+- The covered up IP needs to be your IP
 
 ## Configure the Private NACL
 
 1. Configure it per the below pictures
 
 ![pic](images/PrivateNacl_inbound.jpg)
-![pic](images/PrivateNacle_outbound.png)
+
+![PrivateNacl_outbound](images/PrivateNacle_outbound.png)
+
+- The covered up IP needs to be your IP
 
 - Port 80 and 443 allow internet access
 - Port 1024-65535 is the epheremerla port
