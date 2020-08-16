@@ -86,7 +86,7 @@ May be in same network - dont know without understanding submask
 - micros services would be to break down websites functions into differnt servers
 	- e.g internally adding more cheese and externally buying more cheese
 	
-![rules_outbound_nacl](images/mirco services pic.PNG)
+![rules_outbound_nacl](images/mirco_services.PNG)
 
 ## VPC
 **what is a vpc?**
