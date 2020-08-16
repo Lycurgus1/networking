@@ -85,6 +85,8 @@ May be in same network - dont know without understanding submask
 	- create, record, update delete
 - micros services would be to break down websites functions into differnt servers
 	- e.g internally adding more cheese and externally buying more cheese
+	
+![rules_outbound_nacl](images/mirco services pic.PNG)
 
 ## VPC
 **what is a vpc?**
