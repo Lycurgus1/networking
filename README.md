@@ -6,7 +6,7 @@
 
 - Git Bash
 	- This is used to access and manipulate the machines
-	- Download it here (alongisde other git software): https://git-scm.com/downloads
+	- Download it here (alongside other git software): https://git-scm.com/downloads
 
 ## Installation steps
 ### Task
