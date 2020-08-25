@@ -69,13 +69,23 @@ May be in same network - dont know without understanding submask
 	- more servers to ensure less down time
 
 
-**monolith archiecture**
+## Monolith archiecture
+
 - single "block" network
 - eg. on server running BD + logic + presentation etc.
 - mainframe = JS server running everything
 - server and website on same mainframe meanes if any of the components fail then website goes down
 	- associated costs with that
 - no flexibility or robustness, high costs, low ease of use
+
+
+## Micro Services
+
+- Application structured as collection of services
+- Highly maintainable and testable
+- Orgnaised by small teams and business needs
+	- Works better in agile enviornment when change can be done iteratively
+- Micro services talk to each other kubernetes and docker swarm
 
 **micro services business example**
 - tesco contracted us to handle all cheese sales
@@ -87,6 +97,12 @@ May be in same network - dont know without understanding submask
 	- e.g internally adding more cheese and externally buying more cheese
 	
 ![rules_outbound_nacl](images/mirco_services.PNG)
+
+## Difference betwen Micro and Monolith
+
+- Micro services not best in small organisation
+	- Best to keep it simple
+	
 
 ## VPC
 **what is a vpc?**
