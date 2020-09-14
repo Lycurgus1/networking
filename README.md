@@ -1,5 +1,9 @@
 # Virtual private network set-up
 
+The steps below are for basic virtual private network set-up
+
+Follow-up readmes are available in networking v2/v3 which build on this readme for more complexity
+
 ## Dependencies
 - App set up per below link:
 	- https://github.com/Lycurgus1/NodeJSAppPipeline
@@ -177,16 +181,3 @@ Route Tables - set of rules determinied where traffic from subnet of IGW is dire
 SG - firewall at level of EC2
 
 EC2 - elastic computing 2
-
-**background knowledge**
-
-code is cheap, database is expensive
-
-database should not have internet acces
-
-aws has regions - clustered data centers
-	- within region it has avilability zones. Logically connected by physically seperate
-
-
-
-
