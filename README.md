@@ -22,11 +22,11 @@ Follow-up readmes are available in networking v2/v3 which build on this readme f
 - create route table with public and private route
 - deploy app
 
-### 1. select vpc from aws services
+### 1. Select vpc from aws services
 
 A. ensure region is ireland
 
-### 2. create vpc from vpc menu not wizard
+### 2. Create vpc from vpc menu not wizard
 
 A. tag = Eng67.Max.P.VPC
 
@@ -38,7 +38,7 @@ B. Ipv4 CIDR block = 245.20.0.0/16
 
 C. leave everything else >> create vpc
 
-### 3. create internet gateway
+### 3. Create internet gateway
 
 A. click on internet gateway - create
 
@@ -64,7 +64,7 @@ D. 245.20.1.0/24 in IPv4 block
 
 E. create
 
-### 5. create private subnet
+### 5. Create private subnet
 
 A. click on subnets - create subnet
 
@@ -80,7 +80,7 @@ D. ip = 245.20.2.0/24, create
 
 	- This must be differnt to the IP created for your public subnet
 
-### 6. create route table
+### 6. Create route table
 
 **theory**
 - want to build in rigidity to limit damage from lack of understanding junior member might do
