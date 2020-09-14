@@ -1,11 +1,11 @@
 # Networking theory
 
 ## Networks
-**relationship between two computers**
+**A relationship between two computers**
 - this is then expanded to multiple computer and multiple machines for complex networks
 
 ## IPs
-**what are they?**
+**What are they?**
 - IPs - easy for humans to understand, but binar needed for computer understanding
 - actually binary behind the IP, translated into binary by the computer(see submask)
 
@@ -13,7 +13,7 @@
 - differing IP configurations
 
 ## Submask
-**a third IP that tells you wher to match IPs to be in the same network**
+**A third IP that tells you wher to match IPs to be in the same network**
 
 Computer A - 192.65.63.1
 Computer B - 190.65.30.1
@@ -23,14 +23,14 @@ May be in same network - dont know without understanding submask
 255.0.0.0 then not on the same network
 0.255.0.0 then on the same network
 
-**why this happens**
+**Why this happens**
 - done as only tests where binary is not zero (where value between dots is not zero)
 - 0 in binary = 00000000 and 255 in binary =11111111
 - so in first case tests that 192 in binary (11000000) not same as 190 in binary (10111110)
 - but then in second finds that 65 in binary same as 65 in binary (both 01000001)
 - submasks used to understand if on same submask - 2 to power 32 combinations 4,2 billion
 
-**sub masks and CIDR blocks**
+**Sub masks and CIDR blocks**
 - CIDR = classless inter-domain routing
 - CIDR block represents a set submask as block at end of an IP
 - does this by adding the bits
@@ -39,7 +39,7 @@ May be in same network - dont know without understanding submask
 
 ## CIDR Block
 
-**explanation**
+**Explanation**
 - /0 = submask represenation of 00000000.00000000.00000000.00000000
 - /8 = submask represenation of 11111111.00000000.00000000.00000000
 - /16 = submask represenation of 11111111.11111111.00000000.00000000 
@@ -53,7 +53,7 @@ May be in same network - dont know without understanding submask
 - more division = less computer inside network
 
 ## N-Tier Architecture
-**defintion**
+**Defintion**
 - n = any number
 - division of system into logical tiers
 - usually done with networking, and increase robustness and flexibility
@@ -61,7 +61,7 @@ May be in same network - dont know without understanding submask
 - app tier contains JS server
 - db tier containts mongo db
 
-**mutable vs immutable**
+**Mutable vs immutable**
 - instagram app is immutable as layout is always same.
 - so can create multiple app machines if one goes down, easy to replicate/scale up and down
 - database is mutable, may go down and lose some data
@@ -87,11 +87,11 @@ May be in same network - dont know without understanding submask
 	- Works better in agile enviornment when change can be done iteratively
 - Micro services talk to each other kubernetes and docker swarm
 
-**micro services business example**
-- tesco contracted us to handle all cheese sales
+**Micro services business example**
+- Tesco contracted us to handle all cheese sales
 - API tier accessed to and from tesco
 - This then interacts with db tier
-- app tier interacts with db tier alongside CRUD guidelines
+- App tier interacts with db tier alongside CRUD guidelines
 	- create, record, update delete
 - micros services would be to break down websites functions into differnt servers
 	- e.g internally adding more cheese and externally buying more cheese
@@ -105,12 +105,12 @@ May be in same network - dont know without understanding submask
 	
 
 ## VPC
-**what is a vpc?**
+**What is a vpc?**
 - a vpc is a virtual private cloud, where can define a virtual network to launch aws resoucres in
 - tier 2 means seperating servers into app and db for example
 - this creates a multi tier architecture and is therefore more robust
 
-**what is inside a common 2 tier vpc?** 
+**What is inside a common 2 tier vpc?** 
 - a vpc
 - a subnet
 	- a segment of a VPC’s IP address range where you can place groups of isolated resources
@@ -129,3 +129,10 @@ May be in same network - dont know without understanding submask
 - egress only internet gateway
 	- a stateful gateway 
 	- provides exit only eaccess for IPv6 traffic from vpc to the internet
+	
+**Misc notes**
+
+- Code is cheap, database is expensive
+- Database should not have internet access
+- AWS has regions - clustered data centers
+	- within region it has avilability zones. Logically connected by physically seperate
